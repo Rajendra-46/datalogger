@@ -4,6 +4,7 @@ pipeline {
             image 'iharsha2022/imageqt'
             reuseNode true
         }
+    }
     environment {
         REPOSITORY_NAME = "Analyser-Application"
         ARTIFACT_NAME   = "Datalogger-V-1.1.1"
